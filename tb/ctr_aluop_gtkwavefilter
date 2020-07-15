@@ -1,0 +1,4 @@
+00 NOR
+01 ADD
+10 STA
+11 JCC

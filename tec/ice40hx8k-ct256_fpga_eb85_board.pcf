@@ -1,0 +1,24 @@
+# Physical constraints file (pcf) for iCE40HX8K-CT256 based EB85 board
+
+
+### Clock
+set_io clk_i J3
+
+### LEDs
+set_io led_fpga_o[0] B5
+set_io led_fpga_o[1] B4
+set_io led_fpga_o[2] A2
+set_io led_fpga_o[3] A1
+set_io led_fpga_o[4] C5
+set_io led_fpga_o[5] C4
+set_io led_fpga_o[6] B3
+set_io led_fpga_o[7] C3
+
+### UART (FTDI channel B)
+set_io rs232_rx_i B10
+set_io rs232_tx_o B12
+set_io rts_n_i B13
+set_io cts_n_o A15
+set_io dtr_n_i A16
+set_io dsr_n_o B14
+set_io dcd_n_o B15
